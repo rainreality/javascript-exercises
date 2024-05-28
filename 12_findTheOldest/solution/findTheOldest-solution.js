@@ -5,6 +5,7 @@ const findTheOldest = function (array) {
       currentPerson.yearOfBirth,
       currentPerson.yearOfDeath
     );
+    console.log(oldestAge < currentAge ? currentPerson : oldest);
     return oldestAge < currentAge ? currentPerson : oldest;
   });
 };
